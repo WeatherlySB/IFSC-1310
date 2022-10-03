@@ -1,4 +1,20 @@
-body {
+/* this is a comment */
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
 
-    background-color: red;
+/* Global Styles */
+
+body {
+    font-family: 'Alkalami', serif;
+}
+
+header.primary{
+    /* space befor (.) will target inside of header, not whole*/
+    background-color:red;
 }
