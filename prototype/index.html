@@ -1,28 +1,39 @@
 <!doctype html>
-
-<html lang="en">
-
+<!--
+        CHECKLIST:--------------------------------------------------------------------------------------------------------------
+        Head Section Requirements – Place and HTML Comment after each element in the head section explaining its purpose. 
+        Character Encoding
+        -->
+<html lang="en>
 <head>
  <meta charset="utf-8">
+ <!-- -->
  <title>IFSC 1310 | Prototype HTML5 Assignment</title>
- <meta name="description" content="Keyword Rich Description" />
+ <!-- -->
+ <meta name="description" content="HTML prototype project containing an example using the 
+ currently learned html elements in class. Webpage includes links to other pages in and outside of the 
+ website. The webpage includes information on Gordo the space monkey and his mission into space." />
+ <!-- -->
  <meta name="author" content="Shelby Weatherly" />
+ <!-- -->
 </head>
-
-<body>
+<header class="gordo-header"> 
     <main>
- <h1>Gordo</h1>
- <nav> 
-    <ul>
-        <li> <a href="../index.html">Home</a></li>
-        <li> <a href="/prototype/about.html" class = "about-link">About</a></li>
-        <li> <a href="https://ualr.edu/" target=""_blank">UALR</a></li>
-        <li> <a href="/prototype/contact.html" class="contact-link">Contact</a></li>
-        
-    </ul>
- </nav>
-<section id="intro" class="container">
-
+    <h1>Gordo</h1>
+    <nav> 
+       <ul>
+           <li> <a href="../index.html">Home</a></li>
+           <li> <a href="/prototype/about.html" class = "about-link">About</a></li>
+           <li> <a href="https://ualr.edu/" target=""_blank">UALR</a></li>
+           <li> <a href="/prototype/contact.html" class="contact-link">Contact</a></li>
+           
+       </ul>
+    </nav>
+</header>
+<body id="top">
+ 
+<div id="container">
+<div id="old-reliable">
    <h2> Old Reliable </h2>
     
     <p>Gordo was one of the first monkeys to make it into space as part of NASA's space program. 
@@ -31,33 +42,117 @@
     
     <p>Gordo's historic flight took place on December 13, 1958 when he took off from Cape Canaveral for a 15 minute flight into space. 
     Even though he was weightless for over 8 minutes the on-board instruments indicated that Gordo enjoyed his journey into space. 
-    Scientists monitoring the flight were pleased to note that the only slight side effect Gordo suffered from the entry into space was a modest slowing of his pulse.
+    Scientists monitoring the flight were pleased to note that the only slight side effect Gordo suffered from the entry into space was a <em>modest</em> slowing of his pulse.
     </p>
     <figure>
+        <!--rework img in case it needs to be put in img folder------------------------------------------------------------------------------------------------------------------------------------- -->
     <img src="https://thomaswallace.net/wp-content/uploads/2018/02/gordo.jpeg" alt="Gordo the Space Monkey"/>
     <figcaption> Gordo the space monkey posed with his space suit.</figcaption>
 </figure>
-    <h2>The Mission</h2>
+</div> <!--old-reliable-->
+
+<div id="mission">
+    <h3>The Mission</h3>
     
     <p>The rocket carrying Gordo into space would take off from the Atlantic Missile Range at Cape Canaveral, 
         travel further than any monkey had ever travelled before - over 1,500 miles - and reach a height of 310 miles 
         (500 km) before returning to Earth and landing in the South Atlantic, 1,302 nautical miles south of Cape Canaveral.
-    <q>We all heard the rumors that they want to send a monkey up first. Well, none of us wants to think that they're gonna 
-        send a monkey up to do a man's work ... what they're trying to do to us is send a man up to do a monkey's work.</q>
-    Deke Slayton, Mercury Seven Astronaut
+        <br />
+    <blockquote cite="https://milesobrien.com/the-issue-here-is-monkey/">
+        we all heard the rumors that they want to send a monkey up first. Well, none of us wants to think that they're gonna
+         send a monkey up to do a man's work. But what Gus is saying is that what they're trying to do to us is send a man up to do a monkey's work. 
+         Us, a bunch of college-trained chimpanzees!
+    </blockquote>
+        <cite>- Deke Slayton, Mercury Seven Astronaut</cite>
+        </p>
+        <p>
+        Monkeys later flew on <strong>Aerobee rockets</strong>. On April 18, 1951, a monkey, possibly called Albert V, died due to parachute failure. 
+        Yorick, also called Albert VI, along with 11 mouse crewmates, reached 236,000 ft (72 km, 44.7 mi) and survived the landing, 
+        on September 20, 1951, the first monkey to do so (the dogs Dezik and Tsygan had survived a trip to space in July of that year), 
+        although he died two hours later. Two of the mice also died after recovery; all of the deaths were thought to be related to stress 
+        from overheating in the sealed capsule in the New Mexico sun while awaiting the recovery team.[2] Albert VI's flight surpassed the 
+        50-mile boundary the U.S. used for spaceflight but was below the international definition of space. Patricia and Mike, two cynomolgus monkeys, 
+        flew on May 21, 1952, and survived, but their flight was only to 26 kilometers. Sending monkeys to space would eventually allow humans to do so 
+        and hear <q>that's one small step for man, one giant leap for mankind</q> being spoken on TV.
+            <br />
+        <dl>
+            <dt>Cynomolgus monkey</dt>
+            <dd>A macaque (Macaca fascicularis synonym M. cynomolgus) of 
+            southeastern Asia, Borneo, and the Philippines that is often used in medical research.</dd>
+            <dt>Rhesus macaque</dt>
+            <dd>Species of Old World monkey. There are between six and nine recognised subspecies that are split between two groups, 
+                the Chinese-derived and the Indian-derived. Generally brown or grey in colour, it is 47-53 cm (19-21 in) in length with a 
+                20.7-22.9 cm (8.1-9.0 in) tail and weighs 5.3-7.7 kg (12-17 lb).</dd>
+        </dl>
     </p>
-   <h2> The Jupiter AM-13 </h2>
+</div> <!--mission-->
+
+<div id="jupiter">
+   <h4> The Jupiter AM-13 </h4>
     
-    <p>he Jupiter IRBM (Intermediate Range Ballistic Missile) was originally developed by the US Army as a long-range successor 
+    <p>The Jupiter IRBM (Intermediate Range Ballistic Missile) was originally developed by the US Army as a long-range successor 
         to its PGM-11 Redstone missile, but was eventually taken over and deployed by the USAF for political reasons. 
         It was also the only one of the United States' early stategic ballistic missiles with some mobility. 
     </p>
     
-    <time>Flight Date: December 13, 1958
-    Launch Time: 03.53 EST <time>
+    <p>Flight Date:<time class="flight-date" date="1958-12-13"> December 13, 1958 </time>
+    <br />
+        Launch Time: <time> 03.53 EST </time>
+    </p>
     
-    
-    <h2>The Journey </h2>
+        <table border="1">
+            <caption> The Alberts </caption>
+            <tr id="columns">
+                <th scope="col"> Primate Name</th>
+                <th scope="col">Primate Type </th>
+                <th scope="col"> Affliated Country</th>
+                <th scope="col"> Year Launched Into Space</th>
+                <th scope="col">Affiliated Space Capsule </th>
+            </tr>
+            <tr>
+                <td> Albert </td>
+                <td> Rhesus macaque </td>
+                <td>U.S.</td>
+                <td> 1948 </td>
+                <td> V-2 rocket </td>
+            </tr>
+            <tr>
+                <td> Albert II </td>
+                <td>Rhesus macaque</td>
+                <td>U.S.</td>
+                <td>1949</td>
+                <td>V-2 rocket </td>
+            </tr>
+            <tr>
+                <td>Albert III</td>
+                <td>Crab-eating macaque</td>
+                <td>U.S.</td>
+                <td>1949</td>
+                <td>V-2 rocket</td>
+            </tr>
+            <tr>
+                <td>Albert IV</td>
+                <td>Rhesus macaque</td>
+                <td>U.S.</td>
+                <td>1949</td>
+                <td>V-2 rocket</td>
+            </tr>
+            <tr>
+                <td> Albert V </td>
+                <td>N/A</td>
+                <td>U.S.</td>
+                <td>1951</td>
+                <td>Aerobee</td>
+            </tr>
+        </table>
+
+
+
+
+</div> <!--jupiter-->
+
+<div id="journey">
+    <h4>The Journey </h4>
     
     <p>Gordo wore a specially customised space suit custom made for a monkey about one foot tall. 
         The space suit was fitted with instruments, including temperature meters and microphones which recorded his historic suborbital journey, 
@@ -65,54 +160,45 @@
     </p>
     
     <p>
-    <time class="flight-time" min="15:00">Flight Time: 15 Minutes   </time>
+    Flight Time:<time class="flight-time" min="15:00"></time> 15 Minutes</time>
+    <br />
     Apogee: 310 Miles
-        </p>
-    
-    <h3>References</h3>
-    
+
+        Top 10 Space Monkeys/Apes: 
+       <ol>
+        <li> Ham the Astrochimp </li>
+        <li> Enos the ape </li>
+        <li> Sam the rhesus macaque </li>
+        <li> Martine the pig-tailed macaque </li>
+        <li> Bonny the pig-tailed macaque </li>
+        <li> Goliath the squirrel monkey </li>
+        <li> Bion the Russian monkey </li>
+        <li> Zabiyaka the Russian monkey </li>
+        <li> Juan the tufted capuchin </li>
+        <li> A the Russian Monkey </li>
+        </ol>
+    </p>
+    </div>
+
+    <div id="reference">
+        <h5>References</h5>
     <p>
-    Remembering 'Gordo'
-    BBC - Monkey Lost After Space Flight
+    Remembering 'Gordo' <br />
+    BBC - Monkey Lost After Space Flight <br />
     Gordo and Laika - Space Pioneers
     </p>
+    </div> <!--references-->
+    </div> <!--container-->
+</body>
 
-
-</section>
-<!--
-page sections (<div id="section-name">)
-    container
-    header
-    content: <h2> through <h5>, <p>, <strong>, <em>, and lists (ordered, unordered, definition)
-        quote (inline and/or block)
-    table with 5 rows and 5 columns with horizontal headings w/ caption and scope attributes
-        <img>
-    <nav> with home, about, ualr (_blank), contact
--->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--footer
-include copyright symbol, year, your name, a link that will send an email,
-and back to top anchor link that returns the user to top of page-->
 <footer id="footer" role="contentinfo">
 <h6>
-    &copy; The Famous Primates web site is a Web Standardistas production.
+    <a href="#top"> Back to top</a>
+    The Famous Primates web site is a Web Standardistas production.
     XHTML + CSS released under a Creative Commons Attribution 3.0 license.
-    Photography Copyright iStockphoto.
+    Photography &copy; iStockphoto. &copy; 2022, Shelby Weatherly. 
+    <a href="mailto: email444212@hotmail.com">Send an Email</a>
 </h6>
 </footer>
 </main>
-</body>
 </html>
