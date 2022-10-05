@@ -1,23 +1,17 @@
 <!doctype html>
-<!--
-        CHECKLIST:--------------------------------------------------------------------------------------------------------------
-        Head Section Requirements – Place and HTML Comment after each element in the head section explaining its purpose. 
-        Character Encoding
-        -->
 <html lang="en">
 <head>
  <meta charset="utf-8">
- <!-- -->
+ <!--character encoding, tells browser to use utf-8 is the character set through using the charset attribute-->
  <title>IFSC 1310 | Prototype HTML5 Assignment</title>
- <!-- -->
+ <!--Text between title tags are shown in browser tab and define the document title -->
  <meta name="description" content="HTML prototype project containing an example using the 
  currently learned html elements in class. Webpage includes links to other pages in and outside of the 
- website. The webpage includes information on Gordo the space monkey and his mission into space." />
- <!-- -->
- <meta name="author" content="Shelby Weatherly" />
- <!-- -->
+ website. The webpage includes information on Gordo the space monkey and his mission into space.">
+ <!--description summarizes the webpage and is utilizied by search engines to give users a short description of the content-->
+ <meta name="author" content="Shelby Weatherly">
+ <!--gives credit, shows who is responsible for the webpage, useful for citing a website-->
 </head>
-<main>
     <body>
     <header id="gordo"> 
     <h1><a id="top">Gordo</a></h1>
@@ -44,8 +38,9 @@
     Scientists monitoring the flight were pleased to note that the only slight side effect Gordo suffered from the entry into space was a <em>modest</em> slowing of his pulse.
     </p>
     <figure>
-        <!--rework img in case it needs to be put in img folder------------------------------------------------------------------------------------------------------------------------------------- -->
-    <img src="https://thomaswallace.net/wp-content/uploads/2018/02/gordo.jpeg" alt="Gordo the Space Monkey"/>
+        <img class="gordo-pic" 
+        src="https://thomaswallace.net/wp-content/uploads/2018/02/gordo.jpeg" 
+        alt="Gordo the Space Monkey">
     <figcaption> Gordo the space monkey posed with his space suit.</figcaption>
 </figure>
 </div> <!--old-reliable-->
@@ -56,14 +51,13 @@
     <p>The rocket carrying Gordo into space would take off from the Atlantic Missile Range at Cape Canaveral, 
         travel further than any monkey had ever travelled before - over 1,500 miles - and reach a height of 310 miles 
         (500 km) before returning to Earth and landing in the South Atlantic, 1,302 nautical miles south of Cape Canaveral.
-        <br />
+    </p>
     <blockquote cite="https://milesobrien.com/the-issue-here-is-monkey/">
         we all heard the rumors that they want to send a monkey up first. Well, none of us wants to think that they're gonna
          send a monkey up to do a man's work. But what Gus is saying is that what they're trying to do to us is send a man up to do a monkey's work. 
          Us, a bunch of college-trained chimpanzees!
     </blockquote>
         <cite>- Deke Slayton, Mercury Seven Astronaut</cite>
-        </p>
         <p>
         Monkeys later flew on <strong>Aerobee rockets</strong>. On April 18, 1951, a monkey, possibly called Albert V, died due to parachute failure. 
         Yorick, also called Albert VI, along with 11 mouse crewmates, reached 236,000 ft (72 km, 44.7 mi) and survived the landing, 
@@ -73,7 +67,7 @@
         50-mile boundary the U.S. used for spaceflight but was below the international definition of space. Patricia and Mike, two cynomolgus monkeys, 
         flew on May 21, 1952, and survived, but their flight was only to 26 kilometers. Sending monkeys to space would eventually allow humans to do so 
         and hear <q>that's one small step for man, one giant leap for mankind</q> being spoken on TV.
-            <br />
+        </p>
         <dl>
             <dt>Cynomolgus monkey</dt>
             <dd>A macaque (Macaca fascicularis synonym M. cynomolgus) of 
@@ -83,7 +77,6 @@
                 the Chinese-derived and the Indian-derived. Generally brown or grey in colour, it is 47-53 cm (19-21 in) in length with a 
                 20.7-22.9 cm (8.1-9.0 in) tail and weighs 5.3-7.7 kg (12-17 lb).</dd>
         </dl>
-    </p>
 </div> <!--mission-->
 
 <div id="jupiter">
@@ -93,13 +86,12 @@
         to its PGM-11 Redstone missile, but was eventually taken over and deployed by the USAF for political reasons. 
         It was also the only one of the United States' early stategic ballistic missiles with some mobility. 
     </p>
-    
-    <p>Flight Date:<time class="flight-date" date="1958-12-13"> December 13, 1958 </time>
-    <br />
-        Launch Time: <time> 03.53 EST </time>
+    <p>
+        Flight Date:<time datetime="1958-12-13"> December 13, 1958 </time>
+    <br>
+        Launch Time: <time datetime="03:53"> 03.53 EST </time>
     </p>
-    
-        <table border="1">
+        <table>
             <caption> The Alberts </caption>
             <tr id="columns">
                 <th scope="col"> Primate Name</th>
@@ -144,10 +136,6 @@
                 <td>Aerobee</td>
             </tr>
         </table>
-
-
-
-
 </div> <!--jupiter-->
 
 <div id="journey">
@@ -157,13 +145,11 @@
         The space suit was fitted with instruments, including temperature meters and microphones which recorded his historic suborbital journey, 
         considered one of the outstanding achievements of space research.
     </p>
-    
     <p>
-    Flight Time:<time class="flight-time" min="15:00"></time> 15 Minutes</time>
-    <br />
+    Flight Time: 15 Minutes <br>
     Apogee: 310 Miles
-
-        Top 10 Space Monkeys/Apes: 
+    </p>
+        <h4>Top 10 Space Monkeys/Apes: </h4>
        <ol>
         <li> Ham the Astrochimp </li>
         <li> Enos the ape </li>
@@ -176,28 +162,26 @@
         <li> Juan the tufted capuchin </li>
         <li> A the Russian Monkey </li>
         </ol>
-    </p>
-    </div>
+    </div> <!--journey-->
 
     <div id="reference">
         <h5>References</h5>
     <p>
-    Remembering 'Gordo' <br />
-    BBC - Monkey Lost After Space Flight <br />
+    Remembering 'Gordo' <br>
+    BBC - Monkey Lost After Space Flight <br>
     Gordo and Laika - Space Pioneers
     </p>
     </div> <!--references-->
-    </div> <!--container-->
-</main>
 
-<footer id="footer" role="contentinfo">
+<footer id="footer">
 <h6>
     <a href="#top"> Back to top</a>
     The Famous Primates web site is a Web Standardistas production.
     XHTML + CSS released under a Creative Commons Attribution 3.0 license.
     Photography &copy; iStockphoto. &copy; 2022, Shelby Weatherly. 
-    <a href="mailto: email444212@hotmail.com">Send an Email</a>
+    <a href="mailto:email444212@hotmail.com">Send an Email</a>
 </h6>
 </footer>
+</div> <!--container-->
 </body>
 </html>
