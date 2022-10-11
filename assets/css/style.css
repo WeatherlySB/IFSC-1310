@@ -1,0 +1,39 @@
+html {
+    box-sizing:border-box;
+
+}
+*,
+*:before,
+*:after {
+    box-sizing:inherit;
+}
+
+
+/*-------------------- Global Styles ------------------------*/
+
+body {
+    font-family: 'Alkalami', serif;
+}
+
+/*----------------------Media Queries---------------------- */ 
+
+@media screen and (max-width:650px){
+
+    h1.primary nav ul{
+    flex-direction:column;
+    }
+    h1.primary nal a{
+        display:block;
+        max-width:20%;
+    }
+    
+    h1.primary nav li{
+        margin-bottom: 10px;
+    }
+    
+    
+    
+    
+    
+    
+    }

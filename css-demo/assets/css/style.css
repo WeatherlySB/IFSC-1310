@@ -8,13 +8,135 @@ html {
     box-sizing: inherit;
 }
 
-/* Global Styles */
+/*-------------------Utility classes -----------------------*/
+
+.container{
+    max-width:960px;
+    width:80vw;
+    margin:40px auto;
+}
+
+
+/*-------------------Responsive images----------------------*/
+img{
+    max-width:100%;
+}
+
+
+/*-------------------- Global Styles ------------------------*/
+
+header.primary{
+    /* space befor (.) will target inside of header, not whole*/
+	background-color:#828C6D;
+	text-align:center;
+	text-shadow:1px 1px #BFAC4E;
+	color:#BF4E24;
+    /* Long Form */
+    padding-top:40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left:40px;
+    /* T,R,B,L */
+    padding:40px 40px 40px 40px;
+    /* Single Value Applies to all sides*/
+    padding: 40px;
+    /*top/bottom | left/right */
+    padding: 20px 40px;
+}
+
+header.primary h1 {
+    font-size: 2.6rem;
+    margin:20px 0;
+}
+
+header.primary h1 a {
+    color:#ffffff;
+    text-decoration:none;
+}
+
+header.primary h2{
+    font-size:1.6rem;
+    /*Top | Left/Right | Bottom */
+    margin: 0 auto 40px;
+}
+
+header.primary nav{
+    width:70vw;
+    max-width: 900px;
+    /* Top/Bottom | Left/Right */
+    margin: 15px auto;
+} 
+
+header.primary nav ul{
+    padding:0;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+
+header.primary nav ul li{
+   list-style-type:none;
+}
+
+header.primary nav ul li a{
+   color:green;
+   text-decoration:none;
+   background-color:#000000;
+   background-color:rgba(0,0,0,.4);
+   padding:8px 16px;
+   border-radius:20px 10px 6px 30px;
+   transition:0.5s;
+   /* thickness / stroke / color */
+   border:1px dotted rgba(0,0,0,.6);
+ }
+
+ header.primary ul li a:hover, header.primary ul li a:active {
+    background-color:rgba(0,0,0,.8);
+ }
 
 body {
     font-family: 'Alkalami', serif;
 }
 
-header.primary{
-    /* space befor (.) will target inside of header, not whole*/
-    background-color:red;
+#intro h2{
+    color:azure;
+    border-bottom:1px dotted #BFAC4E;
+}
+
+#content{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+
+#content article.post{
+    width:30%;
+    box-shadow:0 4px 8px rgba(0,0,0,.4);
+    padding:10px;
+    border-radius:4px;
+    font-size:.7rem;
+}
+
+
+/*--------------------Media Queries-------------------- */ 
+
+@media screen and (max-width:650px){
+
+header.primary nav ul{
+flex-direction:column;
+}
+header.primary nal a{
+    display:block;
+    max-width:20%;
+}
+
+header.primary nav li{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
 }
