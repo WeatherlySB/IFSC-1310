@@ -17,18 +17,48 @@ body {
 
 /*----------------------Media Queries---------------------- */ 
 
-@media screen and (max-width:650px){
+@media screen and (max-width:700px){
 
     h1{
-    flex-direction:column;
+    display:block;
+    text-align:center;
     }
-    header.primary nav a{
-        display:block;
-        max-width:20%;
+
+    header.prototype nav a{
+        width:100%;
+        margin-left: 0;
+        margin-right: 0;
+        height:40px;
     }
     
-    header.primary nav li{
+    header.prototype nav li{
+        margin-bottom: 10px;
+    }
+
+    header.cssdemo nav a{
+        width:100%;
+        margin-left: 0;
+        margin-right: 0;
+        height:40px;
+    }
+    
+    header.cssdemo nav li{
+        margin-bottom: 10px;
+    }
+
+    header.cssdiner nav a{
+        width:100%;
+        margin-left: 0;
+        margin-right: 0;
+        height:40px;
+    }
+    
+    header.cssdiner nav li{
         margin-bottom: 10px;
     }
     
+
+
+
+
     }
