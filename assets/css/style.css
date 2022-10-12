@@ -19,21 +19,16 @@ body {
 
 @media screen and (max-width:650px){
 
-    h1.primary nav ul{
+    h1{
     flex-direction:column;
     }
-    h1.primary nal a{
+    header.primary nav a{
         display:block;
         max-width:20%;
     }
     
-    h1.primary nav li{
+    header.primary nav li{
         margin-bottom: 10px;
     }
-    
-    
-    
-    
-    
     
     }
