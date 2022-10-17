@@ -1,4 +1,4 @@
- html {
+html {
     box-sizing:border-box;
 
 }
@@ -13,8 +13,8 @@
 
 .container{
     max-width:960px;
-    width:80vw;
-    margin:40px auto;
+    width:100vw;
+    margin:10px auto;
 }
 
 /*----------------------------- Global Styles --------------------------------*/
@@ -23,49 +23,71 @@ body {
     font-family: 'Alkalami', serif;
 }
 
+header.primary{
+  background-color:#828C6D;
+  text-align:center;
+  text-shadow: 1px 1px #BFAC4E;
+  color:#BFAC4E;
+  padding: 40px;
+  
+}
+
 header.primary h1{
-    display:block;
-    text-align:center;
+   font-size:2.6rem;
+  margin:20px 0;
     }
+
+header.primary h1 a{
+  color:#ffffff;
+  text-decoration:none;
+}
+
+header.primary nav{
+  width:70vw;
+  max-width:900px;
+  margin:10px auto;
+}
+
+header.primary nav ul{
+  padding:10px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-evenly;
+  text-align:center;
+}
+
+header.primary nav ul li{
+  list-style-type:none;
+}
+
+header.primary nav ul li a{
+  color:black;
+  text-decoration:none;
+  background-color:rgba(0.0.0.0.2);
+  padding:10px;
+  border-radius:20px;
+  transition:0.5s;
+}
+
+header.primary ul li a:hover, header.primary ul li a:active{
+  background-color:rgba(0,0,0,.8);
+}
 
 /*-------------------------------Media Queries------------------------------- */ 
 
 @media screen and (max-width:700px){
+    
+    header.home-title-link nav li{
+        margin-bottom:80px;
+    }
 
-  
-
-    header.prototype nav a{
+    header.home-title-link nav a{
         width:100%;
         margin-left: 0;
         margin-right: 0;
         height:40px;
     }
     
-    header.prototype nav li{
-        margin-bottom: 10px;
-    }
-
-    header.cssdemo nav a{
-        width:100%;
-        margin-left: 0;
-        margin-right: 0;
-        height:40px;
-    }
-    
-    header.cssdemo nav li{
-        margin-bottom: 10px;
-    }
-
-    header.cssdiner nav a{
-        width:100%;
-        margin-left: 0;
-        margin-right: 0;
-        height:40px;
-    }
-    
-    header.cssdiner nav li{
-        margin-bottom: 10px;
-    }
     
 
 
