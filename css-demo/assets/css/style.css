@@ -1,6 +1,6 @@
 /* this is a comment */
 html {
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
 *,
 *:before,
@@ -13,7 +13,20 @@ html {
 .container{
     max-width:960px;
     width:80vw;
-    margin:40px auto;
+    margin:30px auto;
+}
+
+.img-right{
+  float:right;
+  margin:10px 0 10px 20px;
+  border: 5px double pink;
+  padding 5px;
+  border-radius:4px;
+}
+
+.img-center{
+  display:block;
+  margin:20px auto;
 }
 
 
@@ -25,46 +38,57 @@ img{
 
 /*-------------------- Global Styles ------------------------*/
 
+body {
+    font-family: 'Alkalami', serif;
+  margin:0;
+  line-height:1.1rem;
+}
+
 header.primary{
     /* space befor (.) will target inside of header, not whole*/
-	background-color:#828C6D;
+	background-color:#370346;
 	text-align:center;
-	text-shadow:1px 1px #BFAC4E;
-	color:#BF4E24;
-    /* Long Form */
+	text-shadow:1px 1px black;
+	color:#F24405;
+    /* Long Form 
     padding-top:40px;
     padding-right: 40px;
     padding-bottom: 40px;
     padding-left:40px;
-    /* T,R,B,L */
+  */
+    /* T,R,B,L 
     padding:40px 40px 40px 40px;
+  */
     /* Single Value Applies to all sides*/
     padding: 40px;
-    /*top/bottom | left/right */
+  
+    /*top/bottom | left/right 
     padding: 20px 40px;
+  */
 }
 
 header.primary h1 {
-    font-size: 2.6rem;
-    margin:20px 0;
+    font-size: 2.5rem;
+    margin:30px 0;
 }
 
 header.primary h1 a {
-    color:#ffffff;
+    color:#F2E4C9;
     text-decoration:none;
 }
 
 header.primary h2{
-    font-size:1.6rem;
+    font-size:1.2rem;
     /*Top | Left/Right | Bottom */
     margin: 0 auto 40px;
 }
 
 header.primary nav{
     width:70vw;
+  font-size:1rem;
     max-width: 900px;
     /* Top/Bottom | Left/Right */
-    margin: 15px auto;
+    margin: 20px auto;
 } 
 
 header.primary nav ul{
@@ -79,12 +103,12 @@ header.primary nav ul li{
 }
 
 header.primary nav ul li a{
-   color:green;
+   color:#F25C05;
    text-decoration:none;
-   background-color:#000000;
+   background-color:#F2E4C9;
    background-color:rgba(0,0,0,.4);
-   padding:8px 16px;
-   border-radius:20px 10px 6px 30px;
+   padding:1px;
+   border-radius:20px;
    transition:0.5s;
    /* thickness / stroke / color */
    border:1px dotted rgba(0,0,0,.6);
@@ -94,23 +118,20 @@ header.primary nav ul li a{
     background-color:rgba(0,0,0,.8);
  }
 
-body {
-    font-family: 'Alkalami', serif;
-}
-
 #intro h2{
-    color:azure;
-    border-bottom:1px dotted #BFAC4E;
+    color:black;
+    border-bottom:1.5px dotted #3703A6;
+    padding:10px;
+   
 }
 
 #content{
     display:flex;
     flex-direction:row;
     justify-content:space-evenly;
-    border-bottom:1px solid #828C6D;
+    border-bottom:1px solid #3703A6;
     padding:2.4rem 0;
-    border-top:1px dotted #828C6D;
-
+    border-top:1.5px dotted #5A24A6;
 }
 
 #content article.post{
@@ -136,12 +157,12 @@ time.post-date, figcaption, footer.post-meta{
 }
 
 .post figure img{
-    border: 1px solid #BF4E24;
+    border: 1px solid #3703A6;
     padding:4px;
 }
 
 .post a{
-    color:#BFAC4E;
+    color:#F25C05;
 }
 
 .post a:hover, .post a:active{
@@ -149,7 +170,7 @@ time.post-date, figcaption, footer.post-meta{
 }
 /* Attribute Selector */
 aside[role="complementary"]{
-    background-color:#ffffff;
+    background-color:#F2E4C9;
     padding:1.4rem;
 }
 
@@ -164,14 +185,14 @@ aside article.widget{
 }
 
 aside article.widget a:last-of-type{
-    color:#BF4E24;
+    color:#F24405;
     display:block;
     margin-top:20px;
     text-align:right;
 }
 
 aside article.widget a{
-    color:#ffffff;
+    color:#F2E4C9;
 }
 
 aside article footer{
@@ -179,15 +200,17 @@ aside article footer{
 }
 
 #colophon{
-    background-color:#000000;
+    background-color:black;
 }
 
+
+
 #colophon h6{
-    padding:20px;
+    padding:30px;
     margin:0;
-    color:#ffffff;
+    color:#F2E4C9;
     text-align:center;
-    font-size:9rem;
+    font-size:2rem;
     text-transform:uppercase;
 }
 
@@ -204,12 +227,41 @@ header.primary nal a{
 }
 
 header.primary nav li{
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 
+}
 
+#demo h2 {
+  border-left:7.5px solid rgb(220, 100, 49);
+  padding:10px;
+}
 
+#demo a{
+  color:rgb(51, 99, 51);
+}
 
+table{
+ border:2px solid black;
+  border-collapse:collapse;
+  width:100%;
+}
 
+tr:nth-child(even){
+  background-color:rgb(240, 216, 216);
+}
+
+tr:hover{
+  background-color:gray;
+}
+
+th{
+  background-color:rgb(241, 168, 73);
+  padding:10px;
+}
+
+td{
+  border:2px solid black;
+  padding:5px;
 }
