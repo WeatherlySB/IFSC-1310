@@ -264,4 +264,55 @@ th{
 td{
   border:2px solid black;
   padding:5px;
+  width:33%;
+  text-align:right;
+}
+
+td:first-of-type {
+    text-align:left;
+}
+
+#demo ol{
+    list-style-type:upper-roman;
+}
+
+#demo ul{
+        list-style-type:square;
+}
+
+#demo ul ul{
+    list-style-type:circle;
+}
+
+#demo ul ul ul{
+    list-style-type:upper-roman;
+}
+
+#demo dt{
+    /*can be a numerical value */
+    font-weight:bold;
+    margin-top:20px;
+}
+
+#demo dd{
+    margin:0;
+}
+
+dd + dt{
+    margin-top:20px;
+}
+
+#demo blockquote{
+    background-color:#f4c76f;
+    padding:30px;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+#demo cite{
+    display:block;
+    font-weight:bold;
+    text-align:right;
+    font-size:.8rem;
+    margin-top:20px;
 }
