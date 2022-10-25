@@ -1,10 +1,13 @@
 html {
   box-sizing:border-box;
+  border: 10px solid black;
+  background-color:black;
 }
 *,
 *:before,
 *:after {
   box-sizing:inherit;
+  margin-bottom:10px;
 }
 
 
@@ -12,22 +15,32 @@ html {
 
 .container{
   margin:auto;
+  
 }
 
 /*----------------------------- Global Styles --------------------------------*/
 
+div.title{
+background-color:#F25C05;
+border:10px bold #F2E4C9;
+text-shadow:1px 2px #F2E4C9;
+border-radius:20px;
+color:black;
+padding:10px;
+}
 
 header.primary{
-background-color:#370346;
+  background-color:#F2E4C9;
+  border-radius:20px;
 text-align:center;
-text-shadow:1px 1px #F2E4C9;
+text-shadow:1px 1px black;
 color:#F25C05;
 padding:20px;
 
 }
 
 header.primary h1{
- font-size:2.6rem;
+ font-size:4rem;
   margin:10px 0;
   }
 
@@ -38,15 +51,16 @@ text-decoration:none;
 
 header.primary nav{
  width:70vw;
-font-size:1rem;
+font-size:1.4rem;
   max-width: 900px;
 margin:20px auto;
+margin-bottom:300px;
 }
 
 header.primary nav ul{
 padding:0;
 display:flex;
-flex-direction:row;
+flex-direction:column;
 justify-content:space-evenly;
 }
 
@@ -58,7 +72,6 @@ header.primary nav ul li a{
  color:#F25C05;
  text-decoration:none;
  background-color:#F2E4C9;
- background-color:rgba(0,0,0,.4);
  padding:1px;
  border-radius:20px;
  transition:0.5s;
@@ -76,20 +89,32 @@ background-color:rgba(0,0,0,.8);
 header.primary nav ul{
 flex-direction:column;
 }
-header.primary nal a{
+header.primary nav a{
   display:block;
   max-width:20%;
 }
 
 header.primary nav li{
-  margin-bottom:12px;
+  margin-bottom:200px;
+}
+
+.labs{
+  max-width:960px;
+  width:80vw;
+  margin:30px auto;
+  display:block;
+}
+
+footer{
+  text-transform:uppercase;
+  background-color:#000000;
+  font-size:.6rem;
 }
 
 
 body {
   font-family: 'Alkalami', serif;
 }
-
 
 
 

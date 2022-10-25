@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
-<title>Positioning Lab</title>
+<title>Absolute Positioning 2</title>
 <style type="text/css">
 * {
 	margin: 0px;
@@ -14,8 +14,10 @@ body {
 	color: #FFF;
 	text-align: center;
 	line-height: 24px;
+	display:inline;
 }
 #wrapper {
+	
 	background-color: #FFF;
 	border-top-width: 1px;
 	border-right-width: 1px;
@@ -31,18 +33,46 @@ body {
 }
 #red {
 	background-color: #900;
+	position:absolute;
+	width:180px;
+	height:180px;
 }
 #green {
 	background-color: #090;
+	position:absolute;
+	top:0;
+	right:0;
+	width:180px;
+	height:180px;
+	margin-bottom:200px;
+	
 }
 #blue {
 	background-color: #00F;
+	position:absolute;
+	margin-top:400px;	
+	margin-bottom:auto;
+	bottom:0;
+	width:180px;
+	height:180px;
+	
+	
 }
 #purple {
 	background-color: #63C;
+	position:absolute;
+	bottom:0;
+	right:0;
+	width:180px;
+	height:180px;
+	
 }
 #footer {
 	background-color: #666;
+	clear:right;
+	clear:left;
+	width:180px;
+	height:180px;
 }
 h1 {
 	color: #000;
@@ -53,7 +83,7 @@ h1 {
 </head>
 
 <body>
-<h1>Exercise 1</h1>
+<h1>Absolute Positioning 2</h1>
 <div id="wrapper">
   <div id="red">Red</div>
   <div id="green">Green</div>
