@@ -15,11 +15,15 @@ html {
 
 .container{
   margin:auto;
+  background-color:white;
   
 }
 
 /*----------------------------- Global Styles --------------------------------*/
 
+
+
+/*
 div.title{
 background-color:#F25C05;
 border:10px bold #F2E4C9;
@@ -84,10 +88,15 @@ header.primary nav ul li a, header.primary nav ul li a ul li a{
   font-weight:bold;
   text-shadow:none;
 }
+*/
 
 header.primary ul li a:hover, 
 header.primary ul li a:active {
-background-color:rgba(0,0,0,.8);
+background-color:rgba(255, 255, 255, 0.8);
+}
+
+nav center {
+  display:block;
 }
 
 /*-------------------------------Media Queries------------------------------- */ 
@@ -95,8 +104,9 @@ background-color:rgba(0,0,0,.8);
 @media screen and (max-width:650px){
 
 header.primary nav ul ul{
-flex-direction:column;
+flex-direction:row;
 }
+
 header.primary nav a{
   display:block;
   max-width:20%;
@@ -106,18 +116,14 @@ header.primary nav li{
   margin-bottom:200px;
 }
 
-
 .primary-footer{
   text-transform:uppercase;
-  background-color:black;
+  background-color:rgb(255, 255, 255);
   font-size:.6rem;
 }
-
 
 body {
   font-family: 'Alkalami', serif;
 }
-
-
 
 }
