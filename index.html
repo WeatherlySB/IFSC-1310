@@ -16,40 +16,52 @@
 
 <body class="container">
    
-   <header class="primary">
+  
       
    <div class="title">
-      <center>
- <h1>-Shelby Weatherly-<br> (Under construction, proper CSS will be back tommorow)</h1>
+<center>
+ <h1>-Shelby Weatherly-</h1>
 </center>
+<hr>
 </div> <!--title -->
 
- <nav> 
-    <ul>
-      <li>Projects</li> 
-      <li> <a href="prototype/index.html">Prototype HTML5 Assignment</a></li>
-        <li> <a href="css-demo/index.html">CSS Demo</a></li>
-        <li> <a href="assets/img/cssdiner.png">CSS Diner</a></li>
-        <li> <a href="assets/img/flexboxfroggy.png">Flexbox Froggy</a></li>
-        <li> <a href="assets/img/bear.png">Cut out bear</a></li> 
-        <li> <a href="assets/img/star-co.png">Gravit logo Tutorial</a></li> 
+<nav role="navigation">
+   <div id="full-menu">
+     <!-- use the :checked selector on it -->
+     <input type="checkbox" />
+     
+     <span></span>
+     <span></span>
+     <span></span>
+     
+     <ul id="menu">
+      <li class="menu-item"><a class="menu-link-a">Projects</a> 
          <ul>
-            <li>Positioning Lab</li>
-            <li> <a href="positioning/absolute-1.html">Absolute 1</a></li>
-            <li> <a href="positioning/absolute-2.html">Absolute 2</a></li>
-            <li> <a href="positioning/float-1.html">Float 1</a></li>
-            <li> <a href="positioning/float-2.html">Float 2</a></li>
+         <li class="dropdown"> <a href="prototype/index.html">Prototype HTML5 Assignment</a></li>
+           <li class="dropdown"> <a href="css-demo/index.html">CSS Demo</a></li>
+           <li class="dropdown"> <a href="assets/img/cssdiner.png">CSS Diner</a></li>
+           <li class="dropdown"> <a href="assets/img/flexboxfroggy.png">Flexbox Froggy</a></li>
+           <li class="dropdown"> <a href="assets/img/bear.png">Cut out bear</a></li> 
+           <li class="dropdown"> <a href="assets/img/star-co.png">Gravit logo Tutorial</a></li> 
          </ul>
-    </ul>
+            </li>
+               <li class="menu-item"><a class="menu-link-b">Positioning Lab</a>
+                  <ul>
+               <li class="dropdown"><a href="positioning/absolute-1.html">Absolute 1</a></li>
+               <li class="dropdown"><a href="positioning/absolute-2.html">Absolute 2</a></li>
+               <li class="dropdown"><a href="positioning/float-1.html">Float 1</a></li>
+               <li class="dropdown"><a href="positioning/float-2.html">Float 2</a></li>
+            </ul>
+            </li> </ul>
+   </div>
  </nav>
 
- </header>
-
-
-
- <footer class="primary-footer">
-   <p>End Of Page</p>
- </footer>
+ <!-- put footer back into place later -->
 
 </body>
+
+
+ <!--place footer  back-->
+
+
 </html>
