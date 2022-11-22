@@ -10,9 +10,7 @@
  *:after {
 	margin: 0;
 	padding: 0;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-ms-box-sizing: border-box;
+	
 	box-sizing: border-box;
 }
 html {
@@ -22,12 +20,12 @@ html {
 body {
 	height: 100%;
 	font: 1em/1.5 Georgia, serif;
-	background-color: white;
 	color: black;
 }
 h1 {
 	font: 2.25em/1 Helvetica, sans-serif;
 	margin-bottom: .667em;
+  text-align:center;
 }
 h2 {
 	font: 1.5em/1 Helvetica, sans-serif;
@@ -40,26 +38,39 @@ p {
 footer {
 	background: #1a1a1a;
 	padding: 1em;
-	color: #fff;
+  
+	color: white;
 	min-height: 10em;
 	text-align: center;
-}
-
-
-.inner {
-  width: 800px;
-  position: relative;
-  margin: 0 auto;
+  padding-bottom:400px;
+  
 }
 
 header {
   position: fixed;
   width: 100%;
-  padding-top: 20px;
-  background: white;
+  padding-top: 10px;
+  background-color:white;
   transition: 0.7s all;
   z-index: 100;
 }
+.img-one > img{
+  float:left;
+  width:200px;
+}
+
+.p-two{
+  display:block;
+}
+      
+.title-centaur{
+  padding-top:120px;
+}
+
+.content{
+    margin-bottom:40px;
+}
+
 
 body.header-fixed header {
   position: fixed;
@@ -102,87 +113,72 @@ nav a:hover {
 .logo {
   float: left;
   margin-bottom:10px;
+  padding-bottom:10px;
   width:90px;
   height:90px;
   transition: 0.7s all;
 }
 
-
 body.header-fixed .logo {
   font-size: 30px;
-}
-
-.alternate {
-  background: white;
-  color: #fff;
 }
 
 section .inner {
   padding-top: 200px;
 }
   
-
-footer {
-	height: 100%;
-}
 .main {
-	padding: 10em 3em 1.5em 1.5em;
+	padding: 10em 0em 1.5em 1.5em;
 }
+
+
+.box {
+  float: left;
+  padding-top:1rem;
+  padding-right:1rem;
+  padding-left:1rem;
+  width: 25%;
+  height: 400px;
+  
+  margin-bottom:20px;
+}
+
+.box p {
+  margin-top: 2em;
+  height: 6em;
+}
+
+.p-product{
+  padding-top:50px;
+  padding-bottom:40px;
+  background-color:rgb(138, 201, 214);
+}
+
+
 
 
 .hide {display: none;}
 @media only screen and (min-width: 800px) {
 
   img {
-    margin:auto;
+    margin:10px;
     height: 100%;
     display: block;
     object-fit: cover;
   }
-
 }
 	
 .home-text {
 margin:auto;
 }
 
-figure,
-img {
-	transition: .4s;
-}
-#dense:checked ~ label span:after {
-	content: ' dense';
-}
-
-.images {
-  display: grid;
-  grid-gap: 5px;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  grid-auto-rows: 125px;
-  grid-auto-flow: dense; /* Fill all spaces with fitted images */
-}
-
-.horizontal {
-grid-column: span 2;
-}
-
-.vertical {
-grid-row: span 2;
-}
-
-.big {
-grid-column: span 2;
-grid-row: span 2;
-}
-
 @media (min-width:43.75em) {
 
 	/* responsive layout */
 	.wrapper {
-		max-width: 60em;
+		max-width: 90em;
 		margin:auto;
 		position: relative;
-  
 	}
 	.main {
 		display: inline-block;
@@ -205,15 +201,15 @@ grid-row: span 2;
 
 
 
+
 /*----------------------------about-------------------------- */
 
 
 
 .about-segway{
 	
-	display: inline-block;
+	display: block;
 	width: 75%;
-	vertical-align: top;
 	max-width: 60em;
 	margin: auto;
   padding-top:100px;
@@ -221,9 +217,9 @@ grid-row: span 2;
 }
 .about-segway h1 {
 	text-align:center;
-	margin-top:20px;
+	margin-top:10px;
 }
-.segway-one > img {
+.segway-one > img{
 	height:300px;
 	width:300px;
 	float:left;
@@ -231,22 +227,29 @@ grid-row: span 2;
 	border-radius:.2rem;
 }
 
+.waters  > img{
+  margin-top:10px;
+  height:50rem;
+  margin:auto;
+  border: 10px solid white;
+ border-radius:25px;
+}
 
-
-
-
-
-
-
-
-
+.waters p {
+  text-align:center;
+  margin-bottom:10px;
+  font-size:6rem;
+  color:white;
+  
+}
 
 
 /*----------------------------faq page-------------------------- */
 
-.col-md-6{
-	margin-right:200px;
-	margin-left:200px;
+.faq-box{
+	margin-right:250px;
+	margin-left:250px;
+  margin-bottom:60px;
 }
 
 .faq-section {
@@ -258,23 +261,10 @@ grid-row: span 2;
   position: relative;
   text-align:center;
   margin-bottom: 45px;
+  margin-top:60px;
   /*display: inline-block; */
   font-weight: 600;
   line-height: 1;
-}
-.faq-title h2::before {
-    content: "";
-    position: absolute;
-    left: 50%;
-    width: 60px;
-    height: 2px;
-    background: #3B566E;
-    bottom: -25px;
-    margin-left: -30px;
-}
-.faq-title p {
-  padding: 0 190px;
-  margin-bottom: 10px;
 }
 
 .faq {
@@ -283,6 +273,16 @@ grid-row: span 2;
   border-radius: 4px;
 }
 
+.faq-title h2::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 60px;
+  height: 2px;
+  background: #3B566E;
+  bottom: -25px;
+  margin-left: -30px;
+}
 
 .faq .card {
   border: none;
@@ -329,7 +329,7 @@ grid-row: span 2;
   width: 20px;
   height: 20px;
   line-height: 14px;
-  float: left;
+  
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   border-radius: 100px;
@@ -354,14 +354,4 @@ grid-row: span 2;
 
 .faq .card .card-body p {
   margin-bottom: 14px;
-}
-
-@media (max-width: 991px) {
-  .faq {
-    margin-bottom: 30px;
-  }
-  .faq .card .card-header .faq-title {
-    line-height: 26px;
-    margin-top: 10px;
-  }
 }
