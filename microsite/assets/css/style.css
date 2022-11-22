@@ -10,7 +10,6 @@
  *:after {
 	margin: 0;
 	padding: 0;
-	
 	box-sizing: border-box;
 }
 html {
@@ -35,15 +34,104 @@ h2 {
 p {
 	margin-bottom: 1em;
 }
+
+.main-title{
+  padding-top:20rem;
+  padding-bottom:10rem;
+  font-size:large;
+  background-color:rgb(162, 191, 207);
+}
+
+.main-title h1{
+  font-size:8rem;
+}
+
+.main-title h3{
+  padding-top:28rem;
+  font-size:2rem;
+}
+
+.main-title p{
+  font-size:1rem;
+  padding-top:10px;
+  margin-right:20%;
+}
+
+.columns {
+	display: flex;
+  top:0;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: auto;
+}
+
+.column {
+	flex: 1;
+  padding-bottom: 2rem;
+}
+
+.column > img{
+  padding-top:2rem;
+  width:60%;
+  height:60%;
+  margin:auto;
+ 
+}
+
+.develop > img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+
+.develop{
+  text-align:left;
+  padding-top:4rem;
+  padding-bottom:5rem;
+  background-color:rgb(208, 235, 242);
+}
+
+.develop h1{
+  padding-top:2rem;
+  text-align:left;
+  font-size:2rem;
+  margin:1rem;
+}
+
+.develop p{
+  margin:1rem;
+}
+
+.part-one{
+  padding-bottom:10rem;
+}
+
+.sect-two{
+  padding-top:10rem;
+}
+
+.mid-paragraph{
+  font-size:2rem;
+  text-align:center
+}
+
 footer {
+  margin-top:5rem;
 	background: #1a1a1a;
 	padding: 1em;
-  
 	color: white;
 	min-height: 10em;
 	text-align: center;
   padding-bottom:400px;
-  
+}
+
+.start{
+  padding-bottom:8rem;
+}
+
+.last-sect{
+  padding-bottom:3rem;
 }
 
 header {
@@ -54,9 +142,36 @@ header {
   transition: 0.7s all;
   z-index: 100;
 }
-.img-one > img{
+
+.a-img{
   float:left;
-  width:200px;
+  width:50%;
+  border-radius:5px;
+}
+
+.b-img{
+  float:right;
+  top:0;
+  width:50%;
+  border-radius:5px;
+}
+
+.flex-grow p{
+  text-align:center;
+  padding-top:40px;
+  margin:40px;
+  border-style:2px bold red;
+}
+
+.first-img{
+  display:block;
+  margin:auto;
+ max-width:800px;
+ max-height:800px;
+ border-radius:8px;
+ margin-bottom:20px;
+ margin-left:3rem;
+ float:left;
 }
 
 .p-two{
@@ -71,6 +186,11 @@ header {
     margin-bottom:40px;
 }
 
+.center-block{
+  padding-top:1rem;
+  margin:auto;
+  width:90%;
+}
 
 body.header-fixed header {
   position: fixed;
@@ -137,25 +257,16 @@ section .inner {
   padding-top:1rem;
   padding-right:1rem;
   padding-left:1rem;
-  width: 25%;
+  width: 40%;
   height: 400px;
-  
-  margin-bottom:20px;
+  margin-bottom:40rem;
 }
+
 
 .box p {
   margin-top: 2em;
   height: 6em;
 }
-
-.p-product{
-  padding-top:50px;
-  padding-bottom:40px;
-  background-color:rgb(138, 201, 214);
-}
-
-
-
 
 .hide {display: none;}
 @media only screen and (min-width: 800px) {
@@ -171,6 +282,9 @@ section .inner {
 .home-text {
 margin:auto;
 }
+
+
+
 
 @media (min-width:43.75em) {
 
