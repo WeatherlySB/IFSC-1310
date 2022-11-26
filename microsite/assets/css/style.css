@@ -117,6 +117,7 @@ p {
 }
 
 footer {
+
   margin-top:5rem;
 	background: #1a1a1a;
 	padding: 1em;
@@ -342,7 +343,7 @@ margin:auto;
 }
 
 .waters  > img{
-  margin-top:10px;
+  margin-top:5px;
   height:50rem;
   margin:auto;
   border: 10px solid white;
@@ -351,7 +352,7 @@ margin:auto;
 
 .waters p {
   text-align:center;
-  margin-bottom:10px;
+  margin-bottom:5px;
   font-size:6rem;
   color:white;
   
