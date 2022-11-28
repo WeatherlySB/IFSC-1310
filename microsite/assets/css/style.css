@@ -122,8 +122,7 @@ p {
   text-align:center
 }
 
-footer {
-
+footer{
   margin-top:5rem;
 	background: #1a1a1a;
 	padding: 1em;
@@ -219,12 +218,10 @@ nav {
 nav ul {
   float: right;
 }
-
 nav li {
   display: inline;
   float: left;
 }
-
 nav a {
   display: inline-block;
   color: black;
@@ -232,11 +229,9 @@ nav a {
   padding: 25px;
   transition: 0.3s all;
 }
-
 nav a:hover {
   background: rgba(137, 211, 243, .2);
 }
-
 .logo {
   float: left;
   margin-bottom:10px;
@@ -250,15 +245,7 @@ body.header-fixed .logo {
   font-size: 30px;
 }
 
-section .inner {
-  padding-top: 200px;
-}
-  
-.main {
-	padding: 10em 0em 1.5em 1.5em;
-}
-
-
+ 
 .box {
   float: left;
   padding-top:1rem;
@@ -268,16 +255,12 @@ section .inner {
   height: 400px;
   margin-bottom:40rem;
 }
-
-
 .box p {
   margin-top: 2em;
   height: 6em;
 }
-
 .hide {display: none;}
 @media only screen and (min-width: 800px) {
-
   img {
     margin:10px;
     height: 100%;
@@ -285,32 +268,7 @@ section .inner {
     object-fit: cover;
   }
 }
-	
-.home-text {
-margin:auto;
-}
 
-
-
-
-@media (min-width:43.75em) {
-
-	/* responsive layout */
-	.wrapper {
-		max-width: 90em;
-		margin:auto;
-		position: relative;
-	}
-	.main {
-		display: inline-block;
-		width: 75%;
-		vertical-align: top;
-	}
-
-	.fixedsticky {
-		top: 0;
-	}
-}
 
 
 
@@ -328,7 +286,6 @@ margin:auto;
 
 
 .about-segway{
-	
 	display: block;
 	width: 75%;
 	max-width: 60em;
@@ -341,15 +298,15 @@ margin:auto;
 	margin-top:10px;
 }
 .segway-one > img{
-	height:300px;
-	width:300px;
+	height:315px;
+	width:315px;
 	float:left;
 	margin-right:25px;
+  margin-bottom:2rem;
 	border-radius:.2rem;
 }
-
 .waters  > img{
-  margin-top:5px;
+  margin-top:4px;
   height:50rem;
   margin:auto;
   border: 10px solid white;
@@ -383,7 +340,6 @@ margin:auto;
   text-align:center;
   margin-bottom: 45px;
   margin-top:60px;
-  /*display: inline-block; */
   font-weight: 600;
   line-height: 1;
 }
