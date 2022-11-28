@@ -21,6 +21,15 @@ body {
 	font: 1em/1.5 Georgia, serif;
 	color: black;
 }
+footer{
+  margin-top:5rem;
+	background: #1a1a1a;
+	padding: 1em;
+	color: white;
+	min-height: 10em;
+	text-align: center;
+  padding-bottom:400px;
+}
 h1 {
 	font: 2.25em/1 Helvetica, sans-serif;
 	margin-bottom: .667em;
@@ -121,25 +130,12 @@ p {
   margin-left:30px;
   text-align:center
 }
-
-footer{
-  margin-top:5rem;
-	background: #1a1a1a;
-	padding: 1em;
-	color: white;
-	min-height: 10em;
-	text-align: center;
-  padding-bottom:400px;
-}
-
 .start{
   padding-bottom:8rem;
 }
-
 .last-sect{
   padding-bottom:3rem;
 }
-
 header {
   position: fixed;
   width: 100%;
@@ -148,27 +144,17 @@ header {
   transition: 0.7s all;
   z-index: 100;
 }
-
 .a-img{
   float:left;
   width:50%;
   border-radius:5px;
 }
-
 .b-img{
   float:right;
   top:0;
   width:50%;
   border-radius:5px;
 }
-
-.flex-grow p{
-  text-align:center;
-  padding-top:40px;
-  margin:40px;
-  border-style:2px bold red;
-}
-
 .first-img{
   display:block;
   margin:auto;
