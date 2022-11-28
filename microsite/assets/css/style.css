@@ -368,8 +368,8 @@ margin:auto;
 /*----------------------------faq page-------------------------- */
 
 .faq-box{
-	margin-right:250px;
-	margin-left:250px;
+	margin-right:200px;
+	margin-left:200px;
   margin-bottom:60px;
 }
 
@@ -450,7 +450,6 @@ margin:auto;
   width: 20px;
   height: 20px;
   line-height: 14px;
-  
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   border-radius: 100px;
