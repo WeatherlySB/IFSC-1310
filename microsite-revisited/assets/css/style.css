@@ -4,8 +4,16 @@
   /* -mox-box-sizing:border-box; */
 }
 
-html, body {
+*, *:before,
+ *:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
   height: 100%;
+	font-size: 100%;
 }
 
 h1 {
@@ -35,15 +43,12 @@ nav {
   margin: 0 auto;
   transition: .5s;
 }
-
-
 nav ul li {
   color:black;
   display:inline;
   list-style:none;
   text-align:center;
 }
-
 nav a {
   display: inline-block;
   font-size: 21px;
@@ -55,15 +60,10 @@ nav a {
   line-height: 65px;
   text-transform: uppercase;
 }
-
 nav a:hover {
   border-top: 5px solid #4a4a4a;
   transition: .4s;
 }
-
-
-
-
 .logo {
   float:left;
   z-index: 100;
@@ -84,6 +84,16 @@ nav a:hover {
 }
 
 
+footer {
+  
+  margin-top:5rem;
+	background: #1a1a1a;
+	padding: 1em;
+	color: white;
+	min-height: 10em;
+	text-align: center;
+  padding-bottom:500px;
+}
 
 
 

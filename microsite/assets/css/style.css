@@ -57,6 +57,10 @@ p {
   margin-right:20%;
 }
 
+.first-p{
+  margin-left:2rem;
+}
+
 .columns {
 	display: flex;
   top:0;
@@ -113,6 +117,8 @@ p {
 
 .mid-paragraph{
   font-size:2rem;
+  margin-right:30px;
+  margin-left:30px;
   text-align:center
 }
 
