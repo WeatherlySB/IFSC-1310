@@ -73,7 +73,6 @@ nav a:hover {
   position:sticky;
 }
 footer{
-  
   margin-top:5rem;
 	background: #1a1a1a;
 	padding: 1em;
@@ -109,9 +108,13 @@ footer a{
 
 
 
-
-
 /*--------------------------------Index/Home Properties---------------------------  */
+.header-p{
+  padding-bottom:40rem;
+  padding-top:10rem;
+  margin-right:2rem;
+  margin-left:2rem;
+}
 .main-title{
   padding-top:25rem;
   margin-bottom:10rem;
@@ -139,6 +142,11 @@ footer a{
   align-items: center;
   max-width: 800px;
   margin: 0 auto;
+}
+.dev-info{
+  padding-top:5rem;
+  margin-right:2rem;
+  margin-left:2rem;
 }
 .grid-title{
   text-align:center;
@@ -168,12 +176,11 @@ footer a{
 .grid-row a {
   text-decoration: none;
 }
-
-
 .grid-item-wrapper {
   -webkit-box-sizing: initial;
   -moz-box-sizing: initial;
   box-sizing: initial;
+  border-radius:2px;
   background: #ececec;
   margin: 0;
   height: 100%;
@@ -227,7 +234,6 @@ footer a{
   background: -o-linear-gradient(#1AA9FB,#1785C4);
   background: linear-gradient(#1AA9FB,#1785C4);
 }
-
 
 .grid-image-top.edgex {
   background: -webkit-gradient(linear,left top, left bottom,from(#952f4c),to(#3e1a51));
