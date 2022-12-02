@@ -106,12 +106,20 @@ footer a{
 
 
 
+  
+
+
+
+
+
+
+
 
 
 /*--------------------------------Index/Home Properties---------------------------  */
 .header-p{
   padding-bottom:40rem;
-  padding-top:10rem;
+  padding-top:40rem;
   margin-right:2rem;
   margin-left:2rem;
 }
@@ -119,7 +127,7 @@ footer a{
   padding-top:25rem;
   margin-bottom:10rem;
   font-size:large;
-  background-color:rgb(162, 191, 207);
+  background-color:rgb(217, 236, 247);
 }
 .main-title h1{
   text-align:center;
@@ -127,13 +135,46 @@ footer a{
   padding-bottom:40rem;
   color:black;
 }
-.home-h2{
-  margin-left:2rem;
+.head-images{
+  content: "";
+  clear: both;
+  display: table;
+  justify-content:center;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:rgb(198, 206, 209);
+  border-radius:20px;
+}
+.head-col{
+  float: left;
+  overflow-y:hidden;
+  padding: 5px;
+}
+.head-col > img{
+  width: 480px;
+  height:480px;
+  border-radius:20px;
+}
+.head-third{
+  margin-top:1rem;
+  padding:1rem;
+  width:710px;
+  height:510px;
+  display: table;
+  justify-content:center;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:rgb(198, 206, 209);
+  border-radius:20px;
+}
+.head-third > img{
+  border-radius:20px;
+  width:700px;
+  height:500px;
 }
 .home-one > img{
-  max-width: 150%;
-  height: auto;
-  margin-left:0;
+  max-width: 200%;
+  height: 350px;
 }
 .home-one{
   display: grid;
@@ -141,23 +182,29 @@ footer a{
   gap: 1rem;
   align-items: center;
   max-width: 800px;
-  margin: 0 auto;
+  margin:auto;
+  margin-bottom:10rem;
 }
-.dev-info{
-  padding-top:5rem;
-  margin-right:2rem;
-  margin-left:2rem;
+.para {
+  margin-top:1rem;
+  width: 100%;
+  height: 350px;
+  background-color:rgb(232, 241, 245);
+  margin-bottom: 20px;
+}
+.para h2{
+  margin-top:2rem;
+  margin-bottom:.5rem;
+  margin-left:50px;
+}
+.para p {
+  margin-right:200px;
+  margin-left:50px;
 }
 .grid-title{
   text-align:center;
   padding-top:10rem;
   font-size:4rem;
-}
-.grid-items{
-
-}
-.grid-two{
-
 }
 .grid-row {
   display: flex;
@@ -166,7 +213,7 @@ footer a{
 }
 
 .grid-item {
-  height: 550px;
+  height: 620px;
   flex-basis: 20%;
   width: 280px;
   position: relative;
@@ -395,16 +442,6 @@ margin-bottom:14rem;
 .p-text h2{
   font-size:2rem;
   margin-bottom:1rem;
-}
-
-.p-one{
-
-}
-.p-two{
-
-}
-.p-three{
-
 }
 .footer-img > img{
   margin-top:2rem;
