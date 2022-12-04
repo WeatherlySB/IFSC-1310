@@ -143,8 +143,15 @@ body
   margin-top:10rem;
   text-align:center;
 }
+.reflection{
+  margin-bottom:10rem;
+} 
 .essay{
   margin-top:1rem;
   margin-left:4rem;
   margin-right:4rem;
+  line-height:2rem;
+}
+.essay p{
+  text-indent:60px;
 }
