@@ -79,7 +79,7 @@ footer{
 	color: white;
 	min-height: 10em;
 	text-align: center;
-  padding-bottom:500px;
+  padding-bottom:300px;
 }
 footer p{
   margin-top:2rem;
@@ -139,21 +139,23 @@ margin-bottom:1rem;
   color:black;
 }
 .home-one > img{
-  max-width: 210%;
+  max-width: 200%;
   height: 360px;
+  padding-left:1rem;
 }
 .home-one{
   display: grid;
   grid-template-columns: 500px 1fr;
   gap: 1rem;
   align-items: center;
-  max-width: 800px;
+  max-width: 900px;
   margin:auto;
-  margin-right:2rem;
   margin-bottom:10rem;
 }
 .home-one p{
   font-size:22px;
+  margin-left:2rem;
+  padding-right:1rem;
 }
 
 .para {
@@ -225,8 +227,6 @@ margin-bottom:1rem;
    
   }
 }
-
-
 .grid-title{
   text-align:center;
   padding-top:10rem;
@@ -237,7 +237,6 @@ margin-bottom:1rem;
   flex-flow: row wrap;
   justify-content: center;
 }
-
 .grid-item {
   height: 620px;
   flex-basis: 26%;
@@ -399,8 +398,6 @@ margin-bottom:1rem;
     flex-basis: 100%;
   }
 }
-
-
 
 
 
