@@ -11,11 +11,10 @@
  <meta name="author" content="Shelby Weatherly" />
  <!--add charater encoding-->
  <link href="assets/css/style.css" rel="stylesheet"/>
- <link href="assets/js/style.js" rel="stylesheet"/>
+
+ <script src="assets/js/scripts.js" defer></script>
  <link href="https://fonts.googleapis.com/css2?family=Alkalami&display=swap" rel="stylesheet">
- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@accessible360/accessible-slick@1.0.1/slick/slick.min.css">
- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@accessible360/accessible-slick@1.0.1/slick/accessible-slick-theme.min.css"> 
-</head>
+ </head>
 
         <nav>
             <div id="nav-wrap">
@@ -71,44 +70,51 @@ will challenge the way you think about four-wheeled transportation.
 </section> <!-- para -->
 
 
+<div class="prince-intro">
+  <p>Intuitive user controls:</p> 
+</div>
 <section class="prince">
-<p>Intuitive user controls:</p> 
+
 <div class="tabs">
   <input type="radio" name="tabs" id="tabone" checked="checked">
   <label for="tabone">Thumbs forward</label>
   <div class="tab">
     <h1>Thumbs forward</h1>
-    <img src="assets/img/tech1104segway_02_700x500.jpg" alt="">
+    <div class="forward-sect">
     <p>The Centaur's forward and backward propulsion is easily controlled by pushing a 
       thumb throttle located on the underside of the right-hand handlebar.</p>
-  </div>
+      <img src="assets/img/tech1104segway_02_700x500.jpg" alt="">
+    </div> <!-- forward-sect -->
+  </div> <!-- tab -->
   
   <input type="radio" name="tabs" id="tabtwo">
-  <label for="tabtwo">Pop a wheelie</label>
+  <label for="tabtwo">Segway Centaur Tricks</label>
   <div class="tab">
     <h1>Pop a wheelie</h1>
+    <div class="wheel-sect">
     <img src="assets/img/tech1104segway_07_485x522.jpg" alt="">
     <p>The Centaur uses dynamic stabilization technology to limit and/or maintain the angle 
       at which the rider experiences the device. What would normally be a dangerous maneuver on a motorcycle or 
       ATV becomes safe and controlled on the Centaur. In addition, the rider can position his/her body in three 
       different ways, which makes for a fun ride. This technology also allows for a high-performance design with a short, 
       compact wheelbase - a combination that traditionally can be very difficult to control.</p>
-  </div>
-  
-  <input type="radio" name="tabs" id="tabthree">
-  <label for="tabthree">Lean forward, go forward</label>
-  <div class="tab">
-    <h1>Lean forward, go forward</h1>
+      </div> <!-- wheel-sect -->
+      
+      <div class="go-sect">
+      <h1>Lean forward, go forward</h1>
     <img src="assets/img/tech1104segway_03_700x500.jpg" alt="">
     <p>If you've haven't yet experienced the Segway PT, now is the time. If you have, 
       you know what we mean by intuitive controls. Concept Centaur uses dynamic stabilization in a similar way. 
       When on two wheels, the Centaur is controlled by how the rider shifts his or her weight. To go forward, 
       lean forward. To go back, lean back. </p>
-  </div>
-
+      </div> <!-- go-sect -->
+</div> <!-- tab -->
+  
   <input type="radio" name="tabs" id="tabfour">
   <label for="tabfour">Smart steering</label>
   <div class="tab">
+    <div class="left">
+      <div class="steer-row">
     <h1>Smart steering</h1>
     <img src="assets/img/tech1104segway_c485x574.gif" alt="">
     
@@ -120,26 +126,27 @@ will challenge the way you think about four-wheeled transportation.
       signal to the controller boards, which then issue a command to drive either or both of the rear wheels. 
       Turning rate is coordinated so that even with the wheels off the ground, Centaur follows the path defined 
       by the front wheel angles. This allows smooth transitions between two-wheel and four-wheel operation.</p>
-  </div>
+  </div> <!-- left -->
 
-  <input type="radio" name="tabs" id="tabfive">
-  <label for="tabfive">Simultaneous mechanical and drive-by-wire steering</label>
-  <div class="tab">
-    <h1>Simultaneous mechanical and drive-by-wire steering</h1>
-    <img src="assets/img/tech1104segway_b485x759.gif" alt="">
-    <p>Smart steering: The front two wheels turn left and right mechanically, 
-      which is made possible by an innovative linkage system designed by Segway engineers. 
-      The Centaur's advanced controls software also allows the rear wheels to turn at different rates in 
-      response to data received from the rider's steering direction. When on two wheels, steering is accomplished 
-      in the same manner, by turning the handlebar. Sensors in the vertical portion of the steering column monitor 
-      the rider's input and sends a signal to the controller boards, which then issue a command to drive either or both of the rear wheels. 
-      Turning rate is coordinated so that even with the wheels off the ground, Centaur follows the path defined by the front wheel angles. 
-      This allows smooth transitions between two-wheel and four-wheel operation.
-        </p>
-  </div>
-</div>
+
+<div class ="right">
+      <h1>Simultaneous mechanical and drive-by-wire steering</h1>
+      <img src="assets/img/tech1104segway_b485x759.gif" alt="">
+      <p>Smart steering: The front two wheels turn left and right mechanically, 
+        which is made possible by an innovative linkage system designed by Segway engineers. 
+        The Centaur's advanced controls software also allows the rear wheels to turn at different rates in 
+        response to data received from the rider's steering direction. When on two wheels, steering is accomplished 
+        in the same manner, by turning the handlebar. Sensors in the vertical portion of the steering column monitor 
+        the rider's input and sends a signal to the controller boards, which then issue a command to drive either or both of the rear wheels. 
+        Turning rate is coordinated so that even with the wheels off the ground, Centaur follows the path defined by the front wheel angles. 
+        This allows smooth transitions between two-wheel and four-wheel operation.
+          </p>
+          </div> <!-- right -->
+        </div> <!-- steer-row -->
+    </div> <!-- tab -->
+</div> <!-- tabs -->
        </section> <!-- prince -->
-    
+
 
     <section class="grid-items">
       <div class="grid-title">

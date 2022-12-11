@@ -157,7 +157,6 @@ margin-bottom:1rem;
   margin-left:2rem;
   padding-right:1rem;
 }
-
 .para {
   margin-top:2rem;
   padding-top:8rem;
@@ -166,7 +165,6 @@ margin-bottom:1rem;
 }
 .para h2{
   margin-top:1rem;
-  margin-bottom:2rem;
   font-size:2rem;
   text-align:center;
 }
@@ -176,13 +174,16 @@ margin-bottom:1rem;
   font-size:2rem;
   padding-bottom:20rem;
 }
-
+.prince-intro p{
+  font-size:6rem;
+  margin-top:6rem;
+  margin-left:2rem;
+}
 .prince{
-  margin-top:2rem;
   margin:4rem;
 }
 .tabs {
-  margin-top:10rem;
+  margin-top:3rem;
 	display: flex;
 	flex-wrap: wrap; 
 }
@@ -213,7 +214,6 @@ margin-bottom:1rem;
 .tabs input[type="radio"]:checked + label + .tab {
 	display: block;
 }
-
 @media (max-width: 45em) {
   .tabs .tab,
   .tabs label {
@@ -223,10 +223,46 @@ margin-bottom:1rem;
     width: 100%;
     margin-right:auto;
     margin-top: 0.2rem;
-   
-   
   }
 }
+.forward-sect{
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 8rem;
+  align-items: center;
+  max-width: 990px;
+  margin:auto;
+  margin-bottom:10rem;
+}
+.forward-sect > img{
+  max-width: 300%;
+  height: 500px;
+  width:550px;
+  padding-right:2rem;
+}
+.forward-sect p{
+  font-size:26px;
+  margin-left:2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .grid-title{
   text-align:center;
   padding-top:10rem;
