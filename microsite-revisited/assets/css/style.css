@@ -250,8 +250,34 @@ margin-bottom:1rem;
 
 
 
-
-
+.tricks{
+  
+  max-width: 990px;
+  margin-top: 2rem;
+  margin-bottom:2rem;
+  object-position:center;
+}
+.tricks h1{
+  font-size: 2rem;
+  text-align:center;
+}
+.wg-left{
+  margin-right:50px;
+}
+.go-sect{
+  margin-top:1rem;
+  grid-template-columns: 300px 1fr;
+  display:grid;
+  gap: 1rem;
+}
+.go-sect > img{
+  width: 200px;
+  height: 200px;
+  margin-top:5rem;
+}
+.go-sect p{
+  margin-top:0;
+}
 
 
 
